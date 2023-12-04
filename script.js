@@ -74,7 +74,7 @@ function visDyr() {
   const ul = document.createElement("ul");
   const liste = document.createElement("li");
 
-  // legger dyr type i ul
+  // legger random dyr type i ul
   ul.textContent = `${randomAnimal.dyr}`;
   dyreContainer.appendChild(ul);
 
